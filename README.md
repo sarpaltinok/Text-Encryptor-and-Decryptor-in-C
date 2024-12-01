@@ -4,9 +4,12 @@ This project is a simple text encryption and decryption program implemented in C
 
 ## Features
 
-- **Encryption**: Encrypt messages using a user-provided key.
-- **Decryption**: Decrypt encrypted messages using the same key.
-- **Key Validation**: Ensures that the key is a valid set of 26 unique alphabetic characters.
+- **Key Validation**: Ensures the key is exactly 26 unique alphabetic characters.
+- **Encrypt Messages**: Replaces plaintext characters using the substitution cipher.
+- **Decrypt Messages**: Recovers the original message from a ciphertext using the same key.
+- **Case Sensitivity**: Preserves the case (uppercase/lowercase) of letters during encryption and decryption.
+- **Handles Non-Alphabetic Characters**: Leaves spaces, numbers, and special characters unchanged.
+
 
 ## Installation
 
@@ -24,6 +27,9 @@ To get a local copy of the project, follow these steps:
 - Enter a key (26 unique alphabetic characters).
 - Choose to either encrypt or decrypt a message.
 - Enter the message and get the output
+
+### Example Key: QWERTYUIOPLKJHGFDSAZXCVBNM
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
